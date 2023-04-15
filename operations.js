@@ -14,6 +14,7 @@ function generateMatrixInput(matrixId) {
             let input = document.createElement("input");
             input.type = "number";
             input.min = "0";
+            input.id = matrixId+i+j;
             input.required = true;
             rowDiv.appendChild(input);
         }
