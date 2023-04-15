@@ -1,0 +1,51 @@
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Header Styles */
+header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Main Styles */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.matrix-operations {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.operation-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.option {
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.matrix-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom:
